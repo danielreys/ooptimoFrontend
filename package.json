@@ -9,7 +9,7 @@
 	"license": "",
 	"author": "",
 	"scripts": {
-		"dev": "gulp & node server.js"
+		"dev": "concurrently \"gulp\" \"node server.js\""
 	},
 	"devDependencies": {
 		"gulp": "^4.0.2",
@@ -19,7 +19,7 @@
 		"gulp-sass": "^5.1.0",
 		"gulp-sourcemaps": "^3.0.0",
 		"gulp-watch": "^5.0.1",
-		"node-sass": "^8.0.0"
+		"sass": "^1.68.0"
 	},
 	"dependencies": {
 		"static-server": "^2.2.1"
